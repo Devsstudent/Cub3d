@@ -6,7 +6,7 @@
 /*   By: odessein <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/24 10:39:07 by odessein          #+#    #+#             */
-/*   Updated: 2022/11/24 11:52:01 by odessein         ###   ########.fr       */
+/*   Updated: 2022/11/24 12:57:12 by odessein         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef CUB3D_H
@@ -47,8 +47,8 @@ typedef struct	s_vision{
 
 typedef struct	s_game_info{
 	t_player	player;
-	t_vison		camera;
+	t_vision	camera;
 	t_data		data;
-}
+}				t_game_info;
 
 #endif
